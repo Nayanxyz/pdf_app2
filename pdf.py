@@ -9,7 +9,7 @@ df = pd.read_csv("topics.csv")                                # and other things
 
 for index, row in df.iterrows():
 
-    pdf.add_page()                                                #to add pages in pdf
+    pdf.add_page()                                                      #to add pages in pdf
 
     pdf.set_font(family="Times", style="B", size=12 )
     pdf.set_text_color(200,200,0)                                #rgb max 254
